@@ -1,13 +1,9 @@
 const colors = {
-    white: "#ffffff",
+    white: "#fffff0",
     black: "#000000",
-    gray: "#afafaa",
-    myDark: "#192734",
-    background: "000023",
-    card: "#f0f0f0",
-    border: "#000028",
-    notification: "#9933FF",
-    blue: "#00acee",
+    red: "#ff0000",
+    gray: "#f0f0f0",
+  
   };
   
   export default colors;

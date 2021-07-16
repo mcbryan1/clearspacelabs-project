@@ -66,6 +66,13 @@ const dimensions = {
     lg: 250,
     xl: 350,
   },
+  width:{
+    xs: 50,
+    sm: 100,
+    md: 150,
+    lg: 250,
+    xl: 350,
+  },
   inputHeight: 75,
   matchParent: "100%",
   halfParent: "50%",
