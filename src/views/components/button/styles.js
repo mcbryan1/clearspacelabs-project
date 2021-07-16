@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     buttonText:{
         fontFamily: 'Bold',
         color: colors.seaBlue,
-        fontSize: dimensions.font.sm + 2
+        fontSize: dimensions.font.sm 
     }
 })
 

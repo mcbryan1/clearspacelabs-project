@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   labelIcon:{
     fontSize: dimensions.font.lg - 3,
-    color: colors.lightGreen,    
+    color: colors.seaBlue,    
   },
   labelIcon1:{
     fontSize: dimensions.font.lg - 3,
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   labelIcon2:{
     fontSize: dimensions.font.lg - 3,
-    color: colors.seaBlue,
+    color: colors.lightGreen,
   },
   labelIcon3:{
     fontSize: dimensions.font.lg - 3,
