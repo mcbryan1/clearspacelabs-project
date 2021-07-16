@@ -6,11 +6,44 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
   },
-  topContainerSpace:{
-      flex: 5
+  subDrawerContainer: {
+    flex: 10,
   },
-  bottomContainerSpace:{
-      flex: 5
+  topContainerSpace: {
+    flex: 1,
+  },
+  bottomContainerSpace: {
+    flex: 9,
+    marginTop: dimensions.margin.lg,
+  },
+  closeIcon: {
+    fontSize: dimensions.font.xl,
+    color: colors.darkGray,
+    marginVertical: dimensions.margin.lg,
+    marginHorizontal: dimensions.margin.lg,
+    alignSelf: "flex-end",
+    color: colors.darkGray,
+  },
+  labelIcon:{
+    fontSize: dimensions.font.lg - 3,
+    color: colors.lightGreen,    
+  },
+  labelIcon1:{
+    fontSize: dimensions.font.lg - 3,
+    color: colors.red,
+  },
+  labelIcon2:{
+    fontSize: dimensions.font.lg - 3,
+    color: colors.seaBlue,
+  },
+  labelIcon3:{
+    fontSize: dimensions.font.lg - 3,
+    color: colors.yellow,
+  },
+  labelText: {
+    color: colors.darkGray,
+    fontFamily: 'Regular',
+    fontSize: dimensions.font.sm,
   }
 });
 

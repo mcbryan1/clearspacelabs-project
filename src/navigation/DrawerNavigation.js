@@ -17,10 +17,9 @@ function DrawerNavigation(navigation) {
         drawerContent={(props) => <CustomDrawer {...props} />}
         drawerPosition="right"
         drawerType="slide"
-        edgeWidth={100}
         drawerStyle={{
           backgroundColor: colors.gray,
-          width: dimensions.width.lg,
+          width: dimensions.width.lg +10,
         }}
         overlayColor={colors.whiteOverlay}
       >

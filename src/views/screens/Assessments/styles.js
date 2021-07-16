@@ -16,13 +16,24 @@ const styles = StyleSheet.create({
         flexDirection:'row',
     },
     description:{
-        fontSize:dimensions.font.md + 2,
-        fontFamily: 'Bold',
+        fontSize:dimensions.font.md ,
+        fontFamily: 'SemiBold',
         flex: 8,
         color: colors.darkGray,
     },
     empty:{
         flex: 2
+    },
+    toggleContainer:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent: 'space-between',
+        marginTop: dimensions.margin.lg,
+        marginBottom: dimensions.margin.md,
+    },
+    toggler: {
+        fontSize: dimensions.font.xl,
+        color: colors.darkGray,
     }
 })
 
